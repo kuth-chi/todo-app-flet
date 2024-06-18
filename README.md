@@ -36,6 +36,6 @@ dist folder is created for web and you can run as web app below.
    python -m http.server --directory dist
    ```
 
-2. Visit http://127.0.0.1:8080 in your browser.
+2. Visit http://127.0.0.1:8000 in your browser.
 
 If you have any issues, please open an issue on GitHub: https://github.com/kuth-chi/todo-app-flet/issues
