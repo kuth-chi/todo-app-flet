@@ -30,7 +30,7 @@ class Task(ft.Column):
                             on_click=self.edit_clicked,
                         ),
                         ft.IconButton(
-                            ft.icons.DELETE_OUTLINE,
+                            ft.icons.DELETE_OUTLINED,
                             tooltip="Delete",
                             on_click=self.delete_clicked,
                         ),
@@ -177,17 +177,17 @@ class TodoApp(ft.Column):
         self.update()
 
 
-async def main(page: ft.Page):
-    """ Main page handle of application """
-    page.title = "Todo App"
-    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
-    page.update()
+# async def main(page: ft.Page):
+#     """ Main page handle of application """
+#     page.title = "Todo App"
+#     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
+#     page.update()
 
-    # create application instance
-    app = TodoApp()
+#     # create application instance
+#     app = TodoApp()
 
-    # add application's root control to the page
-    page.add(app)
+#     # add application's root control to the page
+#     page.add(app)
 
 
-ft.app(target=main)
+# ft.app(target=main)
